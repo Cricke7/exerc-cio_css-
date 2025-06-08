@@ -1,9 +1,24 @@
+nav {
+    background-color: rgb(242, 234, 224);
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    border-radius: 10px;
+    text-align: center;
+}
 
 li {
-display: inline-flex;
-    margin-right: 20px; /* Espaçamento entre os itens */
-    font-size: 18px;
-    gap: 30px;
+display: inline-block;
+    padding: 10px 15px;
+    margin: 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 2px solid;
+    border-radius: 18px; /*deixa a borda arredondada*/
+    transition: 0.3s;
+    background-color: rgb(152, 143, 143);
     
 }
 
@@ -41,7 +56,7 @@ img {
     margin-right: auto;
 }
 
-#esports {
+#sports {
     color: rgb(19, 20, 19);
     display: block;
     width: 100%;
